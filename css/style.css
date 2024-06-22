@@ -21,7 +21,11 @@ nav {
   margin: 10px;
   font-weight: bold;
   justify-content: space-between;
-  text-decoration: none;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
   li {
       padding: 10px
       
@@ -29,6 +33,16 @@ nav {
   p {
     padding: 10px
     }
+  button{
+  font-weight: bold;
+  color: black;
+  background-color: #ea4c89;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  }
+
   #destinations {
     
     text-decoration: none;
